@@ -24,7 +24,75 @@ body,html{
     width: 100%;
     overflow: auto;
     flex: 1;
+    .like{
+        width: 100%;
+        height: 400px;
+        background: pink;
+        .jie{
+            width: 100%;
+            height:100px;
+            display: flex;
+            dl{
+                width: 100%;
+                height: 100%;
+                margin:0 8px;
+              dd{
+                  width:80px;
+                  height:80px;
+                  border-radius: 50%;
+                  background: yellow;
+              }
+              dt{
+                  text-align: center;
+              }
+            }
+        }
+        .guess{
+            width: 100%;
+            height: 300px;
+            background: red;
+            h3{
+                width: 100%;
+                height: 35px;
+                line-height: 35px;
+                margin:0 5px;
+            }
+            .big{
+                width: 100%;
+                height: 260px;
+                display: flex;
+                flex-wrap: wrap;
+                dl{
+                    width: 110px;
+                    height: 130px;
+                    margin:2px 6px;
+                    
+                    dd{
+                        width: 100%;
+                        height: 100px;
+                        background:pink;
+                    }
+                    dt{
+                        text-align: center;
+                        font-size: 12px;
+                    }
 
+                }
+            }
+
+        }
+
+    }
+    .lb{
+        width: 100%;
+        height: 100px;
+        background: pink;
+    }
+    .pic{
+        width: 100%;
+        height: 300px;
+        background: green;
+    }
 }
 .footer{
     width: 100%;
